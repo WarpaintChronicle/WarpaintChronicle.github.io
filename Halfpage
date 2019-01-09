@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Paint Magazine"> 
+    <meta name="keywords" content="History, ">
+<style>
+body{
+    background-color:rgb(217, 175, 98);
+}
+
+
+.EntirePage{
+    width:82%;
+    margin:0 auto 0 auto;
+}
+
+nav ul{list-style-type:none; margin:0; padding:15px; display:grid; grid-template-columns: 1fr 1fr 1fr 1fr;}
+nav li {margin:auto; font-size:17px;}
+nav li a {text-decoration:none; color:Blue; opacity: 0.25;}
+nav li a:hover {opacity:1.0; font-weight:bold; text-shadow: 1px 1px Blue;}
+
+header {text-align:center; padding-bottom:20px; margin:0;}
+header #MainTitle{ font-size:35px; color:Gold; margin:0; margin-top:14.5px;}
+header #MainSubtitle{margin:5px 0 0 10px; font-size:14px;}
+
+section-1 .FeatureImage{ width:90%; display:block; margin:10px auto 0 auto; border-radius:25px;}
+
+section-2 .MainGrid{ display:grid; grid-template-columns:2.43fr 1.10fr 0.85fr }
+section-2 .Left, .Mid, .Right{position:relative;}
+section-2 .LeftTitle{position:absolute; top:8px; Left:55px; transform: rotate(-8deg); font-size:25px; color:balck; }
+section-2 .LeftGrid{ margin:95px 4px 0 59px;}
+section-2 .LeftGrid img{width:100%; height:81px; display:block; margin:0 auto 0 auto; border-radius:10px; border-top:3px solid Green;}
+
+section-2 .Mid{margin:12px 5px 0 25px; }
+section-2 .MidTitle{text-align:center; font-size:22px; color:black;}
+section-2 .MidBox {border-radius:8px; position:relative}
+section-2 .MidGrid img{width:100%; height:121px; display:block; margin:0; border-radius:5px; grid-gap:0px;}
+section-2 .MidGrid p{color:Green; font-weight:bold; text-align:center; margin:0; white-space:nowrap;} 
+section-2 .MidBox1 {margin-top:3px; border-top-left-radius:35px; }
+.MidGrid{width:88%; margin:0px auto 0 auto; display:grid; grid-template-columns: 1fr;  grid-gap:0;  border-left:3px solid green; border-radius: 10px 0 0 10px; }
+.MidBox{position:relative;}
+
+section-2 .RightTitle{position:absolute; top:17px; right:20px; font-size:19px; transform:rotate(8deg); color:Black; white-space:nowrap;}
+
+
+.LeftCaption{color:Orange; font-weight:bold;}
+</style>
+</head>
+<body>
+<div class="EntirePage">
+
+<nav>
+    <ul>
+        <li><a href="News">News</a></li>
+        <li><a href="Stories">Stories</a></li>
+        <li><a href="Info">Info</a></li>
+        <li><a href="About">About</a></li>
+    </ul>
+</nav>
+
+<header>
+    <p id="MainTitle">Paint Magazine</p>
+    <p id="MainSubtitle">Tactical insights</p>
+</header>
+
+<section-1>
+    <img class="FeatureImage" src="WorldMap.png"> <!--Nice example: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjLsb3B39vfAhUMLlAKHXtZBBsQjRx6BAgBEAU&url=https%3A%2F%2Fwww.shutterstock.com%2Fvideo%2Fclip-1194382-illuminated-world-map-animation-looped-continuous-playback&psig=AOvVaw3Q7LreRal6HnX6By13Ik52&ust=1546953046066545 or A Website/WorldMap2.jpg-->
+</section-1>
+
+<section-2> 
+    <div class="MainGrid"> 
+        <div class="Left">  
+            <p class="LeftTitle">World News</p>
+            <div class="LeftGrid"> 
+                <div class="LeftBox"> 
+                    <img src="An3.jpg">
+                    <p><span class="LeftCaption">Syria </span>There have been many instances in which the USA government has helped other countries.</p>
+                </div>
+
+                <div class="LeftBox"> 
+                    <img src="AN2.jpg"> 
+                    <p><span class="LeftCaption">New York </span>What if Urban War would hit New York city? </p>
+                </div> 
+            </div>
+        </div>
+
+        <div class="Mid"> 
+            <p class="MidTitle">Historical</p>
+            <div class="MidGrid">
+                <div class="MidBox MidBox1"> 
+                    <img src="M1.jpg"> 
+                    <p>Mongolian horse</p>
+                </div>
+                <div class="MidBox"> 
+                    <img src="M4.jpg"> 
+                    <p> Roman Solider</p>
+                </div>
+                <div class="MidBox"> 
+                    <img src="M2.jpg"> 
+                    <p>Mongolian archer</p>
+                </div>
+                <div class="MidBox"> 
+                    <img src="M9.jpg">
+                    <p class="TiltLeft">Boxer Revolution</p>
+                </div>
+
+                <!--
+                <div class="MidBox"> 
+                    <img src="M1.jpg"> 
+                </div>
+                <div class="MidBox"> 
+                    <img src="M4.jpg"> 
+                </div>
+                <div class="MidBox"> 
+                    <img src="M2.jpg"> 
+                </div>
+                <div class="MidBox"> 
+                        <img src="M9.jpg"> 
+                </div>
+                <div class="MidBox"> 
+                        <img src="M6.jpg"> 
+                </div>
+                <div class="MidBox"> 
+                        <img src="M3.jpg"> 
+                </div>
+                <div class="MidBox"> 
+                        <img src="M1.jpg"> 
+                </div>
+                <div class="MidBox"> 
+                        <img src="M1.jpg"> 
+                </div>  -->    
+            </div>
+        </div>
+   
+
+        <div class="Right"> 
+            <p class="RightTitle">Newest Books</p>
+            <div class="RightGrid"> 
+
+            </div>
+        </div>
+    </div>
+</section-2>
+
+</div>
+</body>
+</html>
